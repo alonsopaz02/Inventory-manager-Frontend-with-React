@@ -1,3 +1,33 @@
 .contenedor-boton{
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #aeb2b7;
+    width:100%;
+    height:100%;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    display:flex;
+    flex:wrap;
+    border-radius: 10px;
+    border-bottom: 1px solid white;
+
+    cursor: pointer;
+    user-select: none;
     
 }
+
+.contenedor-boton:hover{
+    background-color: #aeb2b748;
+}
+
+.contenedor-icono{
+    align-items: center;
+}
+
+.nombre-menu{
+    margin-left:10px;
+    margin-bottom: 2px;
+}
+

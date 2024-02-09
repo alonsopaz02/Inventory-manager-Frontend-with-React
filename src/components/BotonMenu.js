@@ -9,6 +9,13 @@ function BotonMenu(props) {
     <div 
       className="contenedor-boton"
       onClick={ () => manejarClic()} >
+        <div className="contenedor-icono">
+          {props.icon}
+        </div>
+        
+        <div className="nombre-menu">
+          {props.children}
+        </div>
     </div>
   );
 }

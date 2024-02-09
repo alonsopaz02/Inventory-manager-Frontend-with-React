@@ -3,6 +3,7 @@ import React from 'react';
 import Tabla from './components/Tabla';
 import UsuarioIcon from './components/UsuarioIcon'
 import BotonMenu from './components/BotonMenu';
+import { FaHome,FaBoxOpen,FaBox,FaBoxes,FaSignOutAlt } from 'react-icons/fa';
 
 //Aqui se deberia llamar al nombre de usuario y su rol en sesion
 const usuario = "Alonso";
@@ -12,40 +13,30 @@ function App() {
 
   return (
     <div className="App">
-      
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'></link>
       <div className="menu-contenedor">
           <UsuarioIcon
             usuario = {usuario}
             rol = {rol}>
           </UsuarioIcon>
         <div className = "fila-boton">
-          <BotonMenu>
-
-          </BotonMenu>
+          <BotonMenu icon={<FaHome />}>Inicio</BotonMenu>
         </div>
 
         <div className = "fila-boton">
-          <BotonMenu>
-
-          </BotonMenu>
+          <BotonMenu icon={<FaBoxOpen />}>Registrar entradas</BotonMenu>
         </div>
 
         <div className = "fila-boton">
-          <BotonMenu>
-
-          </BotonMenu>
+          <BotonMenu icon={<FaBox />}>Registrar salidas</BotonMenu>
         </div>
 
         <div className = "fila-boton">
-          <BotonMenu>
-
-          </BotonMenu>
+          <BotonMenu icon={<FaBoxes />}>Inventario</BotonMenu>
         </div>
 
         <div className = "fila-boton">
-          <BotonMenu>
-
-          </BotonMenu>
+          <BotonMenu icon={<FaSignOutAlt />}>Cerrar sesión</BotonMenu>
         </div>
 
       </div>

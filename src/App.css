@@ -1,7 +1,7 @@
 .App {
   width:100%;
   height: 100dvh;
-  background-color:  #0a1633;
+  background-color:  #1a1a1b;
   font-family: Lato, sans-serif;
   display: flex;
   flex: wrap;
@@ -12,21 +12,28 @@
 .menu-contenedor{
   height: 100%;
   width: 250px;
-  background-color: rgba(90, 90, 222, 0.964);
+  background-color:#2a3542;
   justify-content: center;
   align-items: top;
   flex-wrap: wrap;
-  border: 6px solid brown;
 }
 
 .fila-boton{
   display:flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgb(247, 0, 255);
   width: 100%;
   height: 10%;
-  margin-top:1px;
+  background-color: inherit;
+}
+
+.fila-boton-logout{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  margin-top: 170px;
 }
 
 .inventario-contenedor{
