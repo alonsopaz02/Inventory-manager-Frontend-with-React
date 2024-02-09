@@ -5,24 +5,32 @@
     display: flex;
     margin-bottom: 10px;
     margin-top: 10px;
+    font-family: 'Lato',sans-serif;
+    font-size: 15px;
 }
 
 .cuadro-busqueda{
-  font-family: "Arial", sans-serif;
+  font-family: inherit;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgb(58, 57, 57);
   transition: box-shadow 0.3s ease;
   width: 30%;
-
+  height: 30px;
+  font-family: inherit;
+  font-size: inherit;
   margin-right: 90px;
 }
 
 .cuadro-busqueda:focus {
-  outline: none;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px rgba(255, 255, 255, 0.61);
 }
+
+.cuadro-busqueda:hover {
+  box-shadow: 4px 4px rgba(255, 255, 255, 0.61);
+}
+
 
 .boton-filtro {
   font-family: 'Arial', sans-serif;
@@ -30,16 +38,18 @@
   border: none;
   border-radius: 5px;
   background-color: #f8f9fa;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
   cursor: pointer;
   outline: none;
   width: 25%;
   margin-right: 50px;
+  font-family: inherit;
+  font-size: inherit;
 }
 
 .boton-filtro:hover {
   background-color: #e9ecef;
+  box-shadow: 4px 4px rgba(255, 255, 255, 0.61);
 }
 
 .boton-filtro:focus {
@@ -61,7 +71,7 @@
 }
 
 .boton-reportes {
-  font-family: 'Arial', sans-serif;
+  font-family: inherit;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -71,7 +81,7 @@
   transition: background-color 0.3s ease;
   cursor: pointer;
   outline: none;
-  margin-left: 205px;
+  margin-left: 24%;
 }
 
 .boton-reportes:hover {

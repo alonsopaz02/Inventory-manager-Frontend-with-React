@@ -99,7 +99,7 @@ function Tabla(props) {
           <input
             type="text"
             className="cuadro-busqueda"
-            placeholder="Search..."
+            placeholder="Buscar producto..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
@@ -108,7 +108,7 @@ function Tabla(props) {
             value={selectedCategory}
             onChange={handleCategoryChange}
           >
-            <option className= "filtro-opciones" value="">All Categories</option>
+            <option className= "filtro-opciones" value="">Todos</option>
             {categories.map((category, index) => (
               <option key={index} value={category}>
                 {category}

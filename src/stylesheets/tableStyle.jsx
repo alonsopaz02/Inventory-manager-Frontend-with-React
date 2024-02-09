@@ -2,16 +2,17 @@ const tableCustomStyles = {
 
     subHeader:{
       style:{
-        backgroundColor: 'inherit'
+        backgroundColor: 'inherit',
+        marginBottom: '30px'
       }
     },
     headCells: {
       style: {
-        fontSize: '15px',
+        fontSize: '20px',
         fontWeight: 'bold',
         paddingLeft: '0 0px',
         justifyContent: 'center',
-        borderWidth: '2px',
+        borderWidth: '4px',
         backgroundColor: '#007bff'
       },
     },
@@ -19,8 +20,7 @@ const tableCustomStyles = {
     rows:{
         style:{
             backgroundColor: 'white',
-            fontSize: '15px',
-            minHeight: '40px',
+            fontSize: '20px',
             outerWidth: '100px',
         },
     },
