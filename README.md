@@ -1,3 +1,8 @@
+# Inventory manager frontend
+
+The purpose of this project is his usage in a web systems development course. It provides a table that can search items given an API url, filters and sorts.
+It was created with React and the instructions for compiling are below.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
